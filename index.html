@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achille Zouaoui - Java Backend Developer</title>
+    <meta name="description" content="Java Backend Developer specializing in Spring Boot, PostgreSQL, and REST APIs. 8 years of experience building scalable systems.">
+    
+    <link rel="icon" type="image/png" href="img/compass.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="#contact">
+                        <img src="img/My_home.PNG" alt="Achille Zouaoui">
+                    </a>
+                </div>
+
+                <div class="burger-menu">
+                    <div class="burger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+                <nav class="nav-menu">
+                    <ul class="nav-links">
+                        <li><a href="#works">Works</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="social-menu">
+            <div class="social-title">Social Media</div>
+            <div class="social-content">
+                <a href="https://www.linkedin.com/in/achille-zouaoui/" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-card">
+                        <div class="icon-wrapper">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <span class="platform-name">LinkedIn</span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/achillezouaoui" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-card">
+                        <div class="icon-wrapper">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <span class="platform-name">Github</span>
+                    </div>
+                </a>
+
+                <a href="#" onclick="downloadCV(); return false;" class="social-link">
+                    <div class="social-card">
+                        <div class="icon-wrapper">
+                            <i class="fa-solid fa-file-pdf" style="color: #808080;"></i>
+                        </div>
+                        <span class="platform-name">My CV</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <section id="works" class="works">
+            <div class="screen-container">
+                <div class="works-container">
+                    <div style="height: 20px;"></div>
+                    <h2 class="section-title">They Trusted Me</h2>
+                    <p class="section-subtitle">
+                        Proud to have collaborated with leading companies across various industries to deliver exceptional digital experiences
+                    </p>
+
+                    <div class="partners-showcase">
+                        <div class="partner-logo-item">
+                            <img src="img/labels/Banque-Populaire.png" alt="Banque Populaire">
+                        </div>
+                        <div class="partner-logo-item">
+                            <img src="img/labels/oney.png" alt="Oney">
+                        </div>
+                        <div class="partner-logo-item">
+                            <img src="img/labels/Decathlon.png" alt="Decathlon">
+                        </div>
+                        <div class="partner-logo-item">
+                            <img src="img/labels/Auchan.png" alt="Auchan">
+                        </div>
+                        <div class="partner-logo-item">
+                            <img src="img/labels/april.png" alt="April">
+                        </div>
+                        <div class="partner-logo-item">
+                            <img src="img/labels/Synlab.png" alt="Synlab">
+                        </div>
+                        <div class="partner-logo-item">
+                            <img src="img/labels/woop.png" alt="Woop">
+                        </div>
+                        <div class="partner-logo-item">
+                            <img src="img/labels/lesaffre.png" alt="Lesaffre">
+                        </div>
+
+                    </div>
+
+                    <div class="divider" style="height:5rem;"></div>
+
+                    <div class="trust-stats">
+                        <div class="stat-box">
+                            <span class="stat-number" data-target="10">0</span>
+                            <span class="stat-label">Partners</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-number" data-target="8">0</span>
+                            <span class="stat-label">Years of Experience</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-number" data-target="25">0</span>
+                            <span class="stat-label">Projects Delivered</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-number" data-target="50">0</span>
+                            <span class="stat-label">Collaborators</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="screen-container">
+                <div class="monitor-content">
+                    <div class="works-container">
+                        <h2 class="section-title">Skills, Technologies, Tools & Platforms</h2>
+
+                        <div class="partners-showcase">
+                            <div class="partner-logo-item" style="display:flex;flex-direction:column;align-items:center;">
+                                <i class="fab fa-java" style="font-size:2.6rem;color:#007396;"></i>
+                                <span style="margin-top:10px;font-size:1.2rem;">Java</span>
+                            </div>
+                            <div class="partner-logo-item" style="display:flex;flex-direction:column;align-items:center;">
+                                <i class="fas fa-leaf" style="font-size:2.6rem;color:#6DB33F;"></i>
+                                <span style="margin-top:10px;font-size:1.2rem;">Spring Boot</span>
+                            </div>
+                            <div class="partner-logo-item" style="display:flex;flex-direction:column;align-items:center;">
+                                <i class="fas fa-database" style="font-size:2.6rem;color:#336791;"></i>
+                                <span style="margin-top:10px;font-size:1.2rem;">PostgreSQL</span>
+                            </div>
+                            <div class="partner-logo-item" style="display:flex;flex-direction:column;align-items:center;">
+                                <i class="fas fa-exchange-alt" style="font-size:2.6rem;color:#009688;"></i>
+                                <span style="margin-top:10px;font-size:1.2rem;">API REST</span>
+                            </div>
+                            <div class="partner-logo-item" style="display:flex;flex-direction:column;align-items:center;">
+                                <i class="fas fa-envelope" style="font-size:2.6rem;color:#6DB33F;"></i>
+                                <span style="margin-top:10px;font-size:1.2rem;">Spring Mail</span>
+                            </div>
+                            <div class="partner-logo-item" style="display:flex;flex-direction:column;align-items:center;">
+                                <i class="fas fa-book" style="font-size:2.6rem;color:#639834;"></i>
+                                <span style="margin-top:10px;font-size:1.2rem;">Swagger</span>
+                            </div>
+                            <div class="partner-logo-item" style="display:flex;flex-direction:column;align-items:center;">
+                                <i class="fas fa-vial" style="font-size:2.6rem;color:#25A162;"></i>
+                                <span style="margin-top:10px;font-size:1.2rem;">JUnit</span>
+                            </div>
+                            <div class="partner-logo-item" style="display:flex;flex-direction:column;align-items:center;">
+                                <i class="fas fa-flask" style="font-size:2.6rem;color:#C5D928;"></i>
+                                <span style="margin-top:10px;font-size:1.2rem;">Mockito</span>
+                            </div>
+                            <div class="partner-logo-item" style="display:flex;flex-direction:column;align-items:center;">
+                                <i class="fas fa-cube" style="font-size:2.6rem;color:#C71A36;"></i>
+                                <span style="margin-top:10px;font-size:1.2rem;">Maven</span>
+                            </div>
+                        </div>
+
+                        <div class="partners-showcase">
+                            <div class="partner-logo-item" style="display:flex;flex-direction:column;align-items:center;">
+                                <i class="fas fa-laptop-code" style="font-size:2.6rem;color:#007ACC;"></i>
+                                <span style="margin-top:10px;font-size:1.2rem;">IntelliJ</span>
+                            </div>
+                            <div class="partner-logo-item" style="display:flex;flex-direction:column;align-items:center;">
+                                <i class="fas fa-code" style="font-size:2.6rem;color:#007ACC;"></i>
+                                <span style="margin-top:10px;font-size:1.2rem;">VS Code</span>
+                            </div>
+                            <div class="partner-logo-item" style="display:flex;flex-direction:column;align-items:center;">
+                                <i class="fab fa-git-alt" style="font-size:2.6rem;color:#F05032;"></i>
+                                <span style="margin-top:10px;font-size:1.2rem;">Git</span>
+                            </div>
+                            <div class="partner-logo-item" style="display:flex;flex-direction:column;align-items:center;">
+                                <i class="fab fa-github" style="font-size:2.6rem;color:#181717;"></i>
+                                <span style="margin-top:10px;font-size:1.2rem;">GitHub</span>
+                            </div>
+                            <div class="partner-logo-item" style="display:flex;flex-direction:column;align-items:center;">
+                                <i class="fab fa-gitlab" style="font-size:2.6rem;color:#FC6D26;"></i>
+                                <span style="margin-top:10px;font-size:1.2rem;">GitLab</span>
+                            </div>
+                            <div class="partner-logo-item" style="display:flex;flex-direction:column;align-items:center;">
+                                <i class="fab fa-docker" style="font-size:2.6rem;color:#2496ED;"></i>
+                                <span style="margin-top:10px;font-size:1.2rem;">Docker</span>
+                            </div>
+                            <div class="partner-logo-item" style="display:flex;flex-direction:column;align-items:center;">
+                                <i class="fas fa-terminal" style="font-size:2.6rem;color:#4EAA25;"></i>
+                                <span style="margin-top:10px;font-size:1.2rem;">Postman</span>
+                            </div>
+                            <div class="partner-logo-item" style="display:flex;flex-direction:column;align-items:center;">
+                                <i class="fas fa-database" style="font-size:2.6rem;color:#4479A1;"></i>
+                                <span style="margin-top:10px;font-size:1.2rem;">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="screen-container">
+                <div class="monitor-content">
+                    <div class="about-container">
+                        <div class="image-container">
+                            <div class="cadr">
+                                <div class="parallax-wrapper">
+                                    <img src="img/about.png" alt="Achille Zouaoui profile">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <h2 class="section-title">About Me</h2>
+
+                            <p class="headline">
+                                "Java Back-end Developer crafting clean APIs and reliable systems"
+                            </p>
+
+                            <blockquote class="quote">
+                                "I believe good engineering is simple: clear logic, clean architecture, and systems that stay maintainable as they grow. Tech is not about forcing machines to behave; it's about giving humans a codebase that makes sense." 
+                            </blockquote>
+
+                            <div class="text-content">
+                                <p>With 8 years in digital product and application management, I bring a practical understanding of how real users think and how teams actually work. This background now fuels my journey as a Back-end Java Developer, using Java, Spring Boot, PostgreSQL and REST APIs to build stable and scalable back-end systems. I focus on structure, performance and long-term reliability.</p>
+
+                                <p>My goal is to create back-end architectures that developers enjoy working with, and that businesses can trust as they grow.</p>
+                            </div>
+
+                            <div class="download-cv">
+                                <button class="btn-download" onclick="downloadCV()">
+                                    Download my CV <span class="download-icon">↓</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="screen-container">
+                <div class="monitor-content">
+                    <div class="projects-container">
+                        <h2 class="section-title">Featured Projects</h2>
+                        <p class="section-subtitle">
+                            Discover my technical achievements and projects
+                        </p>
+                        
+                        <div class="projects-grid">
+                            <div class="project-card">
+                                <h3 class="project-name">CinéFlow </h3>
+                                <p class="project-description">
+                                    Complete microservices architecture for movie lovers with personalized recommendations, TMDB API integration, and automated notifications. Built with Spring Boot 3 / Java 21 and PostgreSQL.
+                                </p>
+                            </div>
+                            
+                            <div class="project-card">
+                                <h3 class="project-name">My Restaurant</h3>
+                                <p class="project-description">
+                                    SaaS platform enabling restaurants to create their website by configuring menu, images, and information. Spring Boot REST API with complete MySQL data management.
+                                </p>
+                            </div>
+                            
+                            <div class="project-card">
+                                <h3 class="project-name">Other Projects</h3>
+                                <p class="project-description">
+                                    Discover my other projects in Java, Spring Boot, Python, PHP and more on my GitHub profile.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <a href="https://github.com/achillezouaoui" class="view-all-btn" target="_blank" rel="noopener noreferrer">
+                            View All Projects on GitHub
+                            <i class="fa-brands fa-github" style="color:white;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="contact-container">
+                <div class="contact-content">
+                    <h2 class="title">Get in <span>Touch</span></h2>
+                    <p class="contact-description">
+                        Backend developer who builds reliable systems and learns fast (coffee optional ☕). Open to projects, collaborations, tech discussions, or open-source contributions. Free to message me or download my CV. Let's build something that works… and enjoy the deploy together!
+                    </p>
+
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fa-solid fa-phone phone-icon"></i>
+                            <div class="info-text">
+                                <span>PHONE</span>
+                                <p>(+33) 06 69 56 74 18</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fa-solid fa-envelope email-icon"></i>
+                            <div class="info-text">
+                                <span>EMAIL</span>
+                                <p><a href="mailto:achille.zouaoui@gmail.com">achille.zouaoui@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://github.com/achillezouaoui" target="_blank" rel="noopener noreferrer" class="social-item">
+                                <i class="fa-brands fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/achille-zouaoui" target="_blank" rel="noopener noreferrer" class="social-item">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="#" onclick="downloadCV(); return false;" class="social-item">
+                                <i class="fa-solid fa-file-arrow-down"></i>
+                                <span>Download my CV</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="illustration-container">
+                    <img src="img/My_home.PNG" alt="Contact illustration">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
